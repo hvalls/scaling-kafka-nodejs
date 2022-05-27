@@ -23,3 +23,5 @@ OR
  
 $ make produce-forever
 ```
+
+![Arquitecture](arq.png)
