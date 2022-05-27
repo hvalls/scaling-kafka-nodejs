@@ -1,0 +1,656 @@
+{"level":"ERROR","timestamp":"2022-05-27T14:16:13.340Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:16:13.342Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":0,"retryTime":270}
+{"level":"ERROR","timestamp":"2022-05-27T14:16:13.614Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:16:13.615Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":1,"retryTime":558}
+{"level":"ERROR","timestamp":"2022-05-27T14:16:14.174Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:16:14.175Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":2,"retryTime":1302}
+{"level":"ERROR","timestamp":"2022-05-27T14:16:15.479Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:16:15.480Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":3,"retryTime":2844}
+{"level":"ERROR","timestamp":"2022-05-27T14:16:18.327Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:16:18.327Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":4,"retryTime":4584}
+{"level":"ERROR","timestamp":"2022-05-27T14:16:22.914Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:16:22.914Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":5,"retryTime":9390}
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+    at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+    ... 3 lines matching cause stack trace ...
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  name: 'KafkaJSNumberOfRetriesExceeded',
+  retriable: false,
+  helpUrl: undefined,
+  retryCount: 5,
+  retryTime: 9390,
+  [cause]: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+      at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+      at Socket.emit (node:events:527:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    retriable: true,
+    helpUrl: undefined,
+    broker: 'localhost:9092',
+    code: 'ECONNREFUSED',
+    [cause]: undefined
+  }
+}
+
+Node.js v18.1.0
+{"level":"ERROR","timestamp":"2022-05-27T14:18:01.487Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:01.487Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:01.487Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:01.488Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:01.490Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":0,"retryTime":262}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:01.490Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":0,"retryTime":354}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:01.490Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":0,"retryTime":323}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:01.490Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":0,"retryTime":269}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:01.499Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:01.501Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":0,"retryTime":354}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:01.756Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:01.756Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":1,"retryTime":428}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:01.763Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:01.764Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":1,"retryTime":616}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:01.817Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:01.818Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":1,"retryTime":528}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:01.848Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:01.849Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":1,"retryTime":630}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:01.858Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:01.859Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":1,"retryTime":740}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:02.185Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:02.186Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":2,"retryTime":834}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:02.349Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:02.350Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":2,"retryTime":1080}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:02.382Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:02.382Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":2,"retryTime":1416}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:02.481Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:02.481Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":2,"retryTime":1066}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:02.602Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:02.603Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":2,"retryTime":1468}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:03.022Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:03.023Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":3,"retryTime":1732}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:03.433Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:03.434Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":3,"retryTime":2286}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:03.550Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:03.551Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":3,"retryTime":1760}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:03.802Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:03.803Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":3,"retryTime":2960}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:04.072Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:04.073Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":3,"retryTime":3024}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:04.759Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:04.760Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":4,"retryTime":4086}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:05.314Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:05.315Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":4,"retryTime":3366}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:05.722Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:05.723Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":4,"retryTime":4816}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:06.767Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:06.768Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":4,"retryTime":6272}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:07.100Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:07.101Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":4,"retryTime":6380}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:08.685Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:08.685Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":5,"retryTime":6212}
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+    at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+    ... 3 lines matching cause stack trace ...
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  name: 'KafkaJSNumberOfRetriesExceeded',
+  retriable: false,
+  helpUrl: undefined,
+  retryCount: 5,
+  retryTime: 6212,
+  [cause]: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+      at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+      at Socket.emit (node:events:527:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    retriable: true,
+    helpUrl: undefined,
+    broker: 'localhost:9092',
+    code: 'ECONNREFUSED',
+    [cause]: undefined
+  }
+}
+
+Node.js v18.1.0
+{"level":"ERROR","timestamp":"2022-05-27T14:18:08.849Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:08.849Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":5,"retryTime":8594}
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+    at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+    ... 3 lines matching cause stack trace ...
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  name: 'KafkaJSNumberOfRetriesExceeded',
+  retriable: false,
+  helpUrl: undefined,
+  retryCount: 5,
+  retryTime: 8594,
+  [cause]: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+      at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+      at Socket.emit (node:events:527:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    retriable: true,
+    helpUrl: undefined,
+    broker: 'localhost:9092',
+    code: 'ECONNREFUSED',
+    [cause]: undefined
+  }
+}
+
+Node.js v18.1.0
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.318Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.320Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":0,"retryTime":306}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.321Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.323Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":0,"retryTime":360}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.330Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.332Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":0,"retryTime":258}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.332Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.333Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.334Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":0,"retryTime":300}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.334Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":0,"retryTime":291}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.543Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.544Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":5,"retryTime":9852}
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+    at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+    ... 3 lines matching cause stack trace ...
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  name: 'KafkaJSNumberOfRetriesExceeded',
+  retriable: false,
+  helpUrl: undefined,
+  retryCount: 5,
+  retryTime: 9852,
+  [cause]: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+      at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+      at Socket.emit (node:events:527:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    retriable: true,
+    helpUrl: undefined,
+    broker: 'localhost:9092',
+    code: 'ECONNREFUSED',
+    [cause]: undefined
+  }
+}
+
+Node.js v18.1.0
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.594Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.594Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":1,"retryTime":606}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.629Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.629Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.630Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":1,"retryTime":656}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.630Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":1,"retryTime":562}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.637Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.638Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":1,"retryTime":518}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.686Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:10.687Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":1,"retryTime":752}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:11.159Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:11.159Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":2,"retryTime":1132}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:11.194Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:11.194Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":2,"retryTime":1204}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:11.203Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:11.204Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":2,"retryTime":1376}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:11.288Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:11.288Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":2,"retryTime":1562}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:11.441Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:11.442Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":2,"retryTime":1798}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:12.293Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:12.294Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":3,"retryTime":2198}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:12.402Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:12.403Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":3,"retryTime":2716}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:12.583Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:12.585Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":3,"retryTime":3242}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:12.853Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:12.854Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":3,"retryTime":3258}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:13.042Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:13.043Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":5,"retryTime":14290}
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+    at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+    ... 3 lines matching cause stack trace ...
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  name: 'KafkaJSNumberOfRetriesExceeded',
+  retriable: false,
+  helpUrl: undefined,
+  retryCount: 5,
+  retryTime: 14290,
+  [cause]: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+      at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+      at Socket.emit (node:events:527:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    retriable: true,
+    helpUrl: undefined,
+    broker: 'localhost:9092',
+    code: 'ECONNREFUSED',
+    [cause]: undefined
+  }
+}
+
+Node.js v18.1.0
+{"level":"ERROR","timestamp":"2022-05-27T14:18:13.242Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:13.243Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":3,"retryTime":3356}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:13.483Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:13.484Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":5,"retryTime":13144}
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+    at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+    ... 3 lines matching cause stack trace ...
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  name: 'KafkaJSNumberOfRetriesExceeded',
+  retriable: false,
+  helpUrl: undefined,
+  retryCount: 5,
+  retryTime: 13144,
+  [cause]: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+      at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+      at Socket.emit (node:events:527:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    retriable: true,
+    helpUrl: undefined,
+    broker: 'localhost:9092',
+    code: 'ECONNREFUSED',
+    [cause]: undefined
+  }
+}
+
+Node.js v18.1.0
+{"level":"ERROR","timestamp":"2022-05-27T14:18:14.493Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:14.494Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":4,"retryTime":5138}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:15.123Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:15.123Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":4,"retryTime":4834}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:15.829Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:15.829Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":4,"retryTime":6882}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:16.116Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:16.116Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":4,"retryTime":6424}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:16.602Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:16.603Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":4,"retryTime":7488}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:19.635Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:19.636Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":5,"retryTime":10258}
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+    at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+    ... 3 lines matching cause stack trace ...
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  name: 'KafkaJSNumberOfRetriesExceeded',
+  retriable: false,
+  helpUrl: undefined,
+  retryCount: 5,
+  retryTime: 10258,
+  [cause]: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+      at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+      at Socket.emit (node:events:527:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    retriable: true,
+    helpUrl: undefined,
+    broker: 'localhost:9092',
+    code: 'ECONNREFUSED',
+    [cause]: undefined
+  }
+}
+
+Node.js v18.1.0
+{"level":"ERROR","timestamp":"2022-05-27T14:18:19.961Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:19.962Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":5,"retryTime":7770}
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+    at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+    ... 3 lines matching cause stack trace ...
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  name: 'KafkaJSNumberOfRetriesExceeded',
+  retriable: false,
+  helpUrl: undefined,
+  retryCount: 5,
+  retryTime: 7770,
+  [cause]: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+      at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+      at Socket.emit (node:events:527:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    retriable: true,
+    helpUrl: undefined,
+    broker: 'localhost:9092',
+    code: 'ECONNREFUSED',
+    [cause]: undefined
+  }
+}
+
+Node.js v18.1.0
+{"level":"ERROR","timestamp":"2022-05-27T14:18:22.544Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:22.545Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":5,"retryTime":13348}
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+    at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+    ... 3 lines matching cause stack trace ...
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  name: 'KafkaJSNumberOfRetriesExceeded',
+  retriable: false,
+  helpUrl: undefined,
+  retryCount: 5,
+  retryTime: 13348,
+  [cause]: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+      at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+      at Socket.emit (node:events:527:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    retriable: true,
+    helpUrl: undefined,
+    broker: 'localhost:9092',
+    code: 'ECONNREFUSED',
+    [cause]: undefined
+  }
+}
+
+Node.js v18.1.0
+{"level":"ERROR","timestamp":"2022-05-27T14:18:22.714Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:22.715Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":5,"retryTime":11190}
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+    at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+    ... 3 lines matching cause stack trace ...
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  name: 'KafkaJSNumberOfRetriesExceeded',
+  retriable: false,
+  helpUrl: undefined,
+  retryCount: 5,
+  retryTime: 11190,
+  [cause]: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+      at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+      at Socket.emit (node:events:527:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    retriable: true,
+    helpUrl: undefined,
+    broker: 'localhost:9092',
+    code: 'ECONNREFUSED',
+    [cause]: undefined
+  }
+}
+
+Node.js v18.1.0
+{"level":"ERROR","timestamp":"2022-05-27T14:18:23.228Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:23.230Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":0,"retryTime":278}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:23.232Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:23.234Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":0,"retryTime":335}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:23.234Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:23.236Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":0,"retryTime":254}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:23.239Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:23.241Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":0,"retryTime":242}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:23.243Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:23.245Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":0,"retryTime":345}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:23.487Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:23.488Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":1,"retryTime":538}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:23.494Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:23.495Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":1,"retryTime":538}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:23.512Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:23.513Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":1,"retryTime":652}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:23.571Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:23.572Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":1,"retryTime":716}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:23.593Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:23.594Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":1,"retryTime":720}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:24.028Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:24.029Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":2,"retryTime":1058}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:24.034Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:24.035Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":2,"retryTime":974}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:24.095Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:24.096Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":5,"retryTime":13194}
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+    at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+    ... 3 lines matching cause stack trace ...
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  name: 'KafkaJSNumberOfRetriesExceeded',
+  retriable: false,
+  helpUrl: undefined,
+  retryCount: 5,
+  retryTime: 13194,
+  [cause]: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+      at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+      at Socket.emit (node:events:527:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    retriable: true,
+    helpUrl: undefined,
+    broker: 'localhost:9092',
+    code: 'ECONNREFUSED',
+    [cause]: undefined
+  }
+}
+
+Node.js v18.1.0
+{"level":"ERROR","timestamp":"2022-05-27T14:18:24.167Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:24.168Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":2,"retryTime":1260}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:24.291Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:24.291Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":2,"retryTime":1580}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:24.317Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:24.317Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":2,"retryTime":1390}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:25.011Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:25.012Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":3,"retryTime":2156}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:25.090Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:25.092Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":3,"retryTime":1890}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:25.431Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:25.432Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":3,"retryTime":2432}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:25.711Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:25.712Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":3,"retryTime":2446}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:25.875Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:25.876Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":3,"retryTime":3612}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:26.985Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:26.985Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":4,"retryTime":4480}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:27.171Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:27.172Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":4,"retryTime":3822}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:27.866Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:27.867Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":4,"retryTime":5076}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:28.162Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:28.163Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":4,"retryTime":5224}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:29.490Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:29.491Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":4,"retryTime":6158}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:30.997Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:30.997Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":5,"retryTime":6854}
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+    at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+    ... 3 lines matching cause stack trace ...
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  name: 'KafkaJSNumberOfRetriesExceeded',
+  retriable: false,
+  helpUrl: undefined,
+  retryCount: 5,
+  retryTime: 6854,
+  [cause]: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+      at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+      at Socket.emit (node:events:527:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    retriable: true,
+    helpUrl: undefined,
+    broker: 'localhost:9092',
+    code: 'ECONNREFUSED',
+    [cause]: undefined
+  }
+}
+
+Node.js v18.1.0
+{"level":"ERROR","timestamp":"2022-05-27T14:18:31.469Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:31.469Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":5,"retryTime":8828}
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+    at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+    ... 3 lines matching cause stack trace ...
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  name: 'KafkaJSNumberOfRetriesExceeded',
+  retriable: false,
+  helpUrl: undefined,
+  retryCount: 5,
+  retryTime: 8828,
+  [cause]: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+      at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+      at Socket.emit (node:events:527:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    retriable: true,
+    helpUrl: undefined,
+    broker: 'localhost:9092',
+    code: 'ECONNREFUSED',
+    [cause]: undefined
+  }
+}
+
+Node.js v18.1.0
+{"level":"ERROR","timestamp":"2022-05-27T14:18:32.947Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:32.947Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":5,"retryTime":9388}
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+    at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+    ... 3 lines matching cause stack trace ...
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  name: 'KafkaJSNumberOfRetriesExceeded',
+  retriable: false,
+  helpUrl: undefined,
+  retryCount: 5,
+  retryTime: 9388,
+  [cause]: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+      at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+      at Socket.emit (node:events:527:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    retriable: true,
+    helpUrl: undefined,
+    broker: 'localhost:9092',
+    code: 'ECONNREFUSED',
+    [cause]: undefined
+  }
+}
+
+Node.js v18.1.0
+{"level":"ERROR","timestamp":"2022-05-27T14:18:33.391Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:33.392Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":5,"retryTime":11736}
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+    at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+    ... 3 lines matching cause stack trace ...
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  name: 'KafkaJSNumberOfRetriesExceeded',
+  retriable: false,
+  helpUrl: undefined,
+  retryCount: 5,
+  retryTime: 11736,
+  [cause]: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+      at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+      at Socket.emit (node:events:527:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    retriable: true,
+    helpUrl: undefined,
+    broker: 'localhost:9092',
+    code: 'ECONNREFUSED',
+    [cause]: undefined
+  }
+}
+
+Node.js v18.1.0
+{"level":"ERROR","timestamp":"2022-05-27T14:18:35.653Z","logger":"kafkajs","message":"[Connection] Connection error: connect ECONNREFUSED ::1:9092","broker":"localhost:9092","clientId":"kafkajs","stack":"Error: connect ECONNREFUSED ::1:9092\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1195:16)"}
+{"level":"ERROR","timestamp":"2022-05-27T14:18:35.653Z","logger":"kafkajs","message":"[BrokerPool] Failed to connect to seed broker, trying another broker from the list: Connection error: connect ECONNREFUSED ::1:9092","retryCount":5,"retryTime":10134}
+node:internal/process/promises:288
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+KafkaJSNonRetriableError
+  Caused by: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+    at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+    ... 3 lines matching cause stack trace ...
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  name: 'KafkaJSNumberOfRetriesExceeded',
+  retriable: false,
+  helpUrl: undefined,
+  retryCount: 5,
+  retryTime: 10134,
+  [cause]: KafkaJSConnectionError: Connection error: connect ECONNREFUSED ::1:9092
+      at Socket.onError (/Users/hvalls/Workspace/ndkfk/node_modules/kafkajs/src/network/connection.js:210:23)
+      at Socket.emit (node:events:527:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    retriable: true,
+    helpUrl: undefined,
+    broker: 'localhost:9092',
+    code: 'ECONNREFUSED',
+    [cause]: undefined
+  }
+}
+
+Node.js v18.1.0
